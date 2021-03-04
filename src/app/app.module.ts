@@ -13,6 +13,10 @@ import { LivenowComponent } from './livenow/livenow.component';
 
 import {APIService} from './api.service';
 import { MiddleDashInjectorPipe } from './pipes/middle-dash-injector.pipe';
+import { SingleEventCotesComponent } from './single-event-cotes/single-event-cotes.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -22,13 +26,15 @@ import { MiddleDashInjectorPipe } from './pipes/middle-dash-injector.pipe';
     BestleaguesComponent,
     SportviewComponent,
     LivenowComponent,
-    MiddleDashInjectorPipe
+    MiddleDashInjectorPipe,
+    SingleEventCotesComponent
   ],
   imports: [
     NgbModule,
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [
     APIService,
