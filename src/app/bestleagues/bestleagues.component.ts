@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {APIService} from '../api.service'
+import {APIService} from '../api.service';
+import { SocketService } from 'src/app/socket.service';
 
 
 @Component({
@@ -13,11 +14,21 @@ export class BestleaguesComponent implements OnInit {
 sportslist : any;
 bestleaguess : any ;
 
-  constructor(private http:HttpClient , private api:APIService) {
+  constructor(private http:HttpClient , private api:APIService,private socket:SocketService) {
   
   }
  
+
+
+
+
   ngOnInit() {
+
+
+
+    this.socket.listen('test').subscribe((data)=>{
+      console.log(data);
+    })
     
     this.getsportslist();
     this.getbestleagues();
@@ -30,7 +41,7 @@ bestleaguess : any ;
   getsportslist(){
     this.api.sportlist().subscribe((sl: any)=>{
       this.sportslist = sl;
-      console.log(this.sportslist);
+      
       
     })
   }
