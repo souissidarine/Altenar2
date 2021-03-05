@@ -8,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class SingleEventCotesComponent implements OnInit {
 
   constructor() { }
+  public isCollapsed = true;
 
   ngOnInit(): void {
   }
-
+  clickEvent(){
+    this.isCollapsed = !this.isCollapsed;       
+}
 }

@@ -238,7 +238,7 @@ body {
 .asb-icon-yacht:before {
   content: "\5a";
 }
-.asb-icon-e-sports-fifa:before {
+.asb-icon-e-games-fifa:before {
   content: "\62";
 }
 .asb-icon-nba2k:before {
@@ -433,6 +433,9 @@ body {
 .asb-icon-basketball:before {
   content: "\e812";
 }
+.asb-icon-basketball-3x3:before {
+  content: "\e812";
+}
 .asb-icon-3x3-basketball:before {
   content: "\e813";
 }
@@ -511,7 +514,7 @@ body {
 .asb-icon-darts:before {
   content: "\e82c";
 }
-.asb-icon-e-sports:before {
+.asb-icon-e-games:before {
   content: "\e82d";
 }
 .asb-icon-mma:before {
@@ -520,7 +523,7 @@ body {
 .asb-icon-biathlon:before {
   content: "\e82f";
 }
-.asb-icon-motor-sport:before {
+.asb-icon-motor-sports:before {
   content: "\e830";
 }
 .asb-icon-013-racing-flag:before {
@@ -529,7 +532,7 @@ body {
 .asb-icon-033-snowflake:before {
   content: "\e832";
 }
-.asb-icon-rugby-league-1:before {
+.asb-icon-rugby-union:before {
   content: "\e833";
 }
 .asb-icon-045-basketball:before {
@@ -544,7 +547,7 @@ body {
 .asb-icon-nordic-combined:before {
   content: "\e837";
 }
-.asb-icon-alpine:before {
+.asb-icon-alpine-skiing:before {
   content: "\e838";
 }
 .asb-icon-archery:before {
@@ -556,7 +559,7 @@ body {
 .asb-icon-american-football:before {
   content: "\e83b";
 }
-.asb-icon-rugby:before {
+.asb-icon-rugby-union:before {
   content: "\e83c";
 }
 .asb-icon-australian-football:before {
@@ -886,6 +889,14 @@ body {
 .asb-icon-volleyball:before {
   content: "\e8b8";
 }
+
+.asb-icon-beach-volleyball:before {
+  content: "\e8b8";
+}
+
+
+
+
 .asb-icon-cog-alt:before {
   content: "\e8bc";
 }
@@ -1468,10 +1479,21 @@ body {
 .asb-icon-fencing:before {
   content: "\e9b8";
 }
+
+
+.asb-icon-formula-1{
+  content: url(../src/assets/f1.png);
+  
+  margin-right: 8px;
+ 
+  height: 12px;
+
+}
+
 .asb-icon-sailing:before {
   content: "\e9b9";
 }
-.asb-icon-motorbikes:before {
+.asb-icon-motogp:before {
   content: "\e9ba";
 }
 .asb-icon-rugby-league:before {

@@ -242,7 +242,7 @@
     content: '\5a'
 }
 
-.asb-icon-e-sports-fifa:before {
+.asb-icon-e-games-fifa:before {
     content: '\62'
 }
 
@@ -449,6 +449,9 @@
 .asb-icon-basketball-1:before {
     content: '\e800'
 }
+.asb-icon-basketball-3x3:before {
+    content: '\e800'
+}
 
 .asb-icon-trophy:before {
     content: '\e801'
@@ -606,7 +609,7 @@
     content: '\e82c'
 }
 
-.asb-icon-e-sports:before {
+.asb-icon-e-games:before {
     content: '\e82d'
 }
 
@@ -618,7 +621,7 @@
     content: '\e82f'
 }
 
-.asb-icon-motorsport:before {
+.asb-icon-motor-sports:before {
     content: '\e830'
 }
 
@@ -630,7 +633,7 @@
     content: '\e832'
 }
 
-.asb-icon-rugby-league-1:before {
+.asb-icon-rugby-union:before {
     content: '\e833'
 }
 
@@ -650,7 +653,7 @@
     content: '\e837'
 }
 
-.asb-icon-alpine:before {
+.asb-icon-alpine-skiing:before {
     content: '\e838'
 }
 
@@ -666,7 +669,7 @@
     content: '\e83b'
 }
 
-.asb-icon-rugby:before {
+.asb-icon-rugby-union:before {
     content: '\e83c'
 }
 
@@ -1726,6 +1729,10 @@
     content: '\e991'
 }
 
+.asb-icon-formula-1:before{
+    content: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAwIDEwMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTE4LjUzOCw0OC4xNmMtMy4xMzEsMC01LjY3OCwyLjU0Ny01LjY3OCw1LjY3OHMyLjU0Nyw1LjY3OCw1LjY3OCw1LjY3OGMzLjEzLDAsNS42NzctMi41NDcsNS42NzctNS42NzggICBTMjEuNjY4LDQ4LjE2LDE4LjUzOCw0OC4xNnogTTE4LjUzOCw1NS41NTVjLTAuOTQ3LDAtMS43MTgtMC43Ny0xLjcxOC0xLjcxN3MwLjc3MS0xLjcxNywxLjcxOC0xLjcxNyAgIGMwLjk0NiwwLDEuNzE3LDAuNzcsMS43MTcsMS43MTdTMTkuNDg0LDU1LjU1NSwxOC41MzgsNTUuNTU1eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik03My43NjgsNDguMTZjLTMuMTMxLDAtNS42NzgsMi41NDctNS42NzgsNS42NzhzMi41NDcsNS42NzgsNS42NzgsNS42NzhjMy4xMywwLDUuNjc3LTIuNTQ3LDUuNjc3LTUuNjc4ICAgUzc2Ljg5Nyw0OC4xNiw3My43NjgsNDguMTZ6IE03My43NjgsNTUuNTU1Yy0wLjk0NywwLTEuNzE4LTAuNzctMS43MTgtMS43MTdzMC43NzEtMS43MTcsMS43MTgtMS43MTcgICBjMC45NDYsMCwxLjcxNywwLjc3LDEuNzE3LDEuNzE3Uzc0LjcxNCw1NS41NTUsNzMuNzY4LDU1LjU1NXoiPjwvcGF0aD48cG9seWdvbiBmaWxsPSIjMDAwMDAwIiBwb2ludHM9IjU4Ljg2Niw1My4wNjIgNTYuMDksNTUuNTMzIDI2LjQ0MSw1NS41MzMgMjYuNDQxLDU4LjUwMiA1Ny4yMiw1OC41MDIgNjAuMTk1LDU1Ljg1NSAgICA2NS44MjEsNTQuOTQzIDY1LjM0Niw1Mi4wMTIgICI+PC9wb2x5Z29uPjxwb2x5Z29uIGZpbGw9IiMwMDAwMDAiIHBvaW50cz0iMTkuMTAyLDQ0LjIzIDE4LjE5NCw0NS4xMzcgMjAuMjk1LDQ3LjIzNyAyMi4wNzEsNDUuNDYxIDIyLjA3MSw0MC40ODQgOC45MTMsNDAuNDg0IDguOTEzLDUyLjgxNiAgICAxMS44ODQsNTIuODE2IDExLjg4NCw0My40NTUgMTkuMTAyLDQzLjQ1NSAgIj48L3BvbHlnb24+PHBvbHlnb24gZmlsbD0iIzAwMDAwMCIgcG9pbnRzPSI0Ny43MTcsNDEuODgyIDM1Ljg0Niw0MS44ODIgMjQuODU3LDQ2LjAwMiAyNS45LDQ4Ljc4MyAzNi4zODQsNDQuODUyIDQ0Ljc0Niw0NC44NTIgICAgNDQuNzQ2LDQ5Ljk0NSA2Ny4zMzYsNDkuOTQ1IDY3LjMzNiw0Ni45NzYgNDcuNzE3LDQ2Ljk3NiAgIj48L3BvbHlnb24+PHBvbHlnb24gZmlsbD0iIzAwMDAwMCIgcG9pbnRzPSI4NS43NDMsNTMuNjM3IDg3LjU4LDUxLjgwNyA4Ny41OCw0OC44MjMgODAuMTA0LDQ3LjE3NSA3OS40NjQsNTAuMDc1IDg0LjA4Nyw1MS4wOTQgODIuNjk0LDUyLjQ4ICAgIDgyLjY5NCw1Ni42MDcgODguMTE2LDU2LjYwNyA4OC4xMTYsNTcuNTM1IDkxLjA4Nyw1Ny41MzUgOTEuMDg3LDUzLjYzNyAgIj48L3BvbHlnb24+PC9nPjwvc3ZnPg==);
+}
+
 .asb-icon-vfec:before {
     content: '\e992'
 }
@@ -1886,7 +1893,7 @@
     content: '\e9b9'
 }
 
-.asb-icon-motorbikes:before {
+.asb-icon-motogp:before {
     content: '\e9ba'
 }
 

@@ -41,6 +41,7 @@ bestleaguess : any ;
   getsportslist(){
     this.api.sportlist().subscribe((sl: any)=>{
       this.sportslist = sl;
+      console.log("spppp",  this.sportslist)
       
       
     })

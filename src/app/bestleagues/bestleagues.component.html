@@ -115,7 +115,7 @@
 
   <div>
     <div class="_asb_application-fullHD--sports-tree _asb_sports-tree " name="sports-tree" style="position: static;">
-      <!--
+     
       
       <div class="asb-flex-sc asb-flex-sc _asb_widget-header ">
         <div class="asb-text"> Menu </div>
@@ -124,11 +124,11 @@
         <div class="asb-flex-sc  _asb_sports-tree-item-header " title="Football">
           <i class="_asb_sport-icon asb-icon-{{sp.Name | middleDashInjector |lowercase}} _asb_sports-tree-item-header-icon "></i> 
           <div class="asb-pos-wide asb-text _asb_sports-tree-item-header-name ">{{sp.Name}}</div> 
-          <div *ngIf="sp.HasLiveEvents" class="asb-flex-cc asb-nowrap _asb_live-indicator  _asb_sports-tree-item-header-live blink"> En direct 
+          <div *ngIf="sp.hasLive" class="asb-flex-cc asb-nowrap _asb_live-indicator  _asb_sports-tree-item-header-live blink"> En direct 
            </div> 
-          <div class="asb-text-center _asb_events-count  _asb_sports-tree-item-header-count ">{{sp.EventCount}}</div> 
+          <div class="asb-text-center _asb_events-count  _asb_sports-tree-item-header-count ">{{sp.count}}</div> 
           <i class="_asb_ui-icon  asb-icon-arrow-down _asb_sports-tree-item-header-expansion "></i>
         </div> 
-        -->
+      
       </div>
      
