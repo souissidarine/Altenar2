@@ -15,7 +15,7 @@ ul{
   }
   input[type="checkbox"]{
     position: absolute;
-    left: -9999px;
+    left: -99999px;
   }
   input[type="checkbox"] ~ ul{
     height: 0;
@@ -34,4 +34,7 @@ ul{
   .arrow:link {
     -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
+  }
+  .sel:focus {
+    background-color:orange;
   }

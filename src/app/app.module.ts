@@ -14,6 +14,7 @@ import { LivenowComponent } from './livenow/livenow.component';
 import {APIService} from './api.service';
 import { MiddleDashInjectorPipe } from './pipes/middle-dash-injector.pipe';
 import { SingleEventCotesComponent } from './single-event-cotes/single-event-cotes.component';
+import { MatchsLeagueComponent } from './matchs-league/matchs-league.component';
 
 
 
@@ -27,7 +28,8 @@ import { SingleEventCotesComponent } from './single-event-cotes/single-event-cot
     SportviewComponent,
     LivenowComponent,
     MiddleDashInjectorPipe,
-    SingleEventCotesComponent
+    SingleEventCotesComponent,
+    MatchsLeagueComponent
   ],
   imports: [
     NgbModule,

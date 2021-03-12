@@ -241,6 +241,9 @@ body {
 .asb-icon-e-games-fifa:before {
   content: "\62";
 }
+.asb-icon-tv-games:before {
+  content: "\62";
+}
 .asb-icon-nba2k:before {
   content: "\63";
 }
@@ -392,6 +395,9 @@ body {
   content: "\e720";
 }
 .asb-icon-basketball-1:before {
+  content: "\e800";
+}
+.asb-icon-gaelic-sports:before {
   content: "\e800";
 }
 .asb-icon-trophy:before {
@@ -1311,6 +1317,9 @@ body {
 .asb-icon-football:before {
   content: "\e980";
 }
+.asb-icon-netball:before {
+  content: "\e980";
+}
 .asb-icon-tickets:before {
   content: "\e981";
 }
@@ -1489,11 +1498,105 @@ body {
   height: 12px;
 
 }
+.asb-icon-virtual-sports{
+  content: url(../src/assets/vs.png);
+  height: 15px;
 
+}
+.asb-icon-hurling{
+  content: url(../src/assets/hurling.png);
+  height: 15px;
+
+}
+.asb-icon-poker{
+  content: url(../src/assets/poker.png);
+  height: 15px;
+
+}
+.asb-icon-lottery{
+  content: url(../src/assets/lottery.png);
+  height: 15px;
+
+}
+.asb-icon-sumo{
+  content: url(../src/assets/sumo.png);
+  
+  margin-right: 15px;
+ 
+  height: 18px;
+
+}
+.asb-icon-weather{
+  content: url(../src/assets/weather.png);
+  
+  margin-right: 15px;
+ 
+  height: 18px;
+
+}
+.asb-icon-politics{
+  content: url(../src/assets/politics.png);
+  
+  margin-right: 15px;
+ 
+  height: 18px;
+
+}
+.asb-icon-surfing{
+  content: url(../src/assets/surfing.png);
+  
+  margin-right: 125px;
+ 
+  height: 15px;
+
+}
+.asb-icon-australian-rules{
+  content: url(../src/assets/aust.png);
+  
+  margin-right: 8px;
+ 
+  height: 18px;
+
+}
+.asb-icon-equine-sports{
+  content: url(../src/assets/equine.png);
+  
+  margin-right: 15px;
+ 
+  height: 20px;
+
+}
+.asb-icon-trotting{
+  content: url(../src/assets/equine.png);
+  
+  margin-right: 15px;
+ 
+  height: 20px;
+
+}
+.asb-icon-nascar{
+  content: url(../src/assets/nascar.png);
+  
+  margin-right: 15px;
+ 
+  height: 20px;
+
+}
+.asb-icon-supercars{
+  content: url(../src/assets/supercars.png);
+  
+  margin-right: 10px;
+ 
+  height: 15px;
+
+}
 .asb-icon-sailing:before {
   content: "\e9b9";
 }
 .asb-icon-motogp:before {
+  content: "\e9ba";
+}
+.asb-icon-motorbikes:before {
   content: "\e9ba";
 }
 .asb-icon-rugby-league:before {

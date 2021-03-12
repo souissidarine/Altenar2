@@ -19,31 +19,32 @@ export class LivenowComponent implements OnInit {
   displayEq = false;
   display1x2 = false
   Menu = []
+  data="1.09"
   constructor(private http: HttpClient, private api: APIService) { }
 
 
   public isCollapsed = true;
   ngOnInit(): void {
-    
-    
-     this.get10live();
-  
+
+
+    this.get10live();
+
   }
 
-get10live(){
-  this.api.live10ev().subscribe((lv10:any)=>{
-    this.lv10 = lv10.Result.Items[0].Events ;
-    //console.log(this.lv10)
-  })
-}
+  get10live() {
+    this.api.live10ev().subscribe((lv10: any) => {
+      this.lv10 = lv10.Result.Items[0].Events;
+      //console.log(this.lv10)
+    })
+  }
 
 
 
-clickEvent(){
-    this.isCollapsed = !this.isCollapsed;       
-}
- 
- 
+  clickEvent() {
+    this.isCollapsed = !this.isCollapsed;
+  }
+
+
 
 
   DisplayTotal() {
@@ -58,4 +59,14 @@ clickEvent(){
   Display1x2() {
     this.display1x2 = !this.display1x2
   }
+
+  sendData(){
+    this.api.sendData(this.data);
+  }
+
+  status: boolean = false;
+clickEventt(){
+    this.status = !this.status;       
+}
+
 }
