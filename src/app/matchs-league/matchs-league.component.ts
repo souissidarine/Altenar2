@@ -10,7 +10,7 @@ export class MatchsLeagueComponent implements OnInit {
   markets
   marketById
   marketByIdName
-  prematchs
+  prematchs : any ;
   equipe1
   equipe2
 

@@ -27,15 +27,7 @@ export class LivenowComponent implements OnInit {
   ngOnInit(): void {
 
 
-    this.get10live();
 
-  }
-
-  get10live() {
-    this.api.live10ev().subscribe((lv10: any) => {
-      this.lv10 = lv10.Result.Items[0].Events;
-      //console.log(this.lv10)
-    })
   }
 
 

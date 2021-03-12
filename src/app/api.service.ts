@@ -1,16 +1,18 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject } from 'rxjs';
+import { Observable } from 'rxjs';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class APIService {
 
-
-  urll = 'https://sb1capi-altenar.biahosted.com/Sportsbook/GetFavouritesChamps?timezoneOffset=-60&langId=1&skinName=default&configId=1&culture=en-GB&deviceType=Mobile&numformat=en&period=periodmonth&sportId=&startDate=2021-02-16T10%3A02%3A00.000Z&endDate=2021-03-18T10%3A02%3A00.000Z';
+  urlc= 'http://192.168.1.26:3000/country/';
+  urll= 'http://192.168.1.26:3000/leagues/';
   urlsport = 'http://192.168.1.26:3000/Sport';
-  urlsportwc = 'http://192.168.1.26:3000/Sportswithcount';
+  urlsportwc = 'http://192.168.1.26:3000/Sportswithcount'
   urlPaysByIdSports = "http://192.168.1.26:3000/country/"
   private data = new BehaviorSubject<string>("");
   castdata = this.data.asObservable();
@@ -40,7 +42,6 @@ export class APIService {
   }
 
   getPaysByIdSports(id) {
-    debugger;
     return this.http.get<any[]>(this.urlPaysByIdSports + id);
   }
 
@@ -59,4 +60,23 @@ export class APIService {
     return this.http.get<any[]>("https://prematch.lsports.eu/OddService/GetFixtureMarkets?username=skillwarecomp@gmail.com&password=h6rt7m34&guid=a1f5f44b-01fd-48b4-b2fd-86ecf873a8f0&Locations=243&Sports=6046&Fixtures="+fixture)
 
   }
+  
+
+ 
+ 
+
+
+
+getcountries(sportid):Observable<any[]>{
+
+  return   this.http.get<any[]>(this.urlc+sportid);
+
+
+}
+
+getleagues(sportid,countryname):Observable<any[]>{
+  
+  return this.http.get<any[]>(this.urll+sportid+'/'+countryname);
+}
+
 }
